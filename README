@@ -1,0 +1,22 @@
+Libraries used:
+	librosa
+	Ipython
+	sklearn
+	tensorflow
+	python, numpy
+	scipy
+	matplotlib
+	
+Directory Structure:
+	Code
+		--- Data (download the data)
+			--- wav files
+			--- image files
+			--- feature_3_sec.csv
+		--- datacompress.py (KNN: input file generetor, no arg required)
+		--- model.ipynb (CNN, KNN: run all)
+		--- README
+	
+knndata.dat : input file (generate through datacompress.py)
+
+Data link : https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download-directory
